@@ -2,23 +2,28 @@
 Project Name
 # weTrvl
 
-Weather travel app
+## Sub-Heading ##
+The Weather travel app
 
-Summary
+## Summary ##
 A travel planner that gives the weather forecast for the given time and place. 
 
-Problem
+## Problem ##
 Getting rained on during your trip to Bali because you didn't bring an umbrella?
 
-Solution
+
+## Solution ##
 This app that will ensure you're always prepared for any weather and you know exactly what to expect on your travels.
 
 
-How to Get Started
+## Quote from You ##
+"This app is awesome!" Rochelle Valdez, CEO, weTravl
+
+## How to Get Started ##
 All you have do is input the time and place, et voila!
 
-Customer Quote
 
-Closing and Call to Action
+## Customer Quote ##
+"I went to Bali and wasn't rained on!"-one traveller 
 
-Wrap it up and give pointers where the reader should go next.
+## Closing and Call to Action ##
