@@ -1,0 +1,23 @@
+{
+  "name": "starter-node-angular",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0chellevee/weTravel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r0chellevee/weTravel/issues"
+  },
+  "dependencies": {
+    "express": "4.5.1",
+    "mongoose": "3.8.0",
+    "body-parser": "~1.4.2",
+    "method-override": "2.0.2"
+  },
+  "homepage": "https://github.com/r0chellevee/weTravel#readme"
+}
