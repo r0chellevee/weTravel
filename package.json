@@ -17,6 +17,7 @@
     "express": "4.5.1",
     "mongoose": "3.8.0",
     "body-parser": "~1.4.2",
+    "ejs": "^2.4.1",
     "method-override": "2.0.2"
   },
   "homepage": "https://github.com/r0chellevee/weTravel#readme"
