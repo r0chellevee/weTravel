@@ -1,1 +1,0 @@
-var Weather = require('../models/')
