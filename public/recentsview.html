@@ -27,7 +27,7 @@
             </div>
       
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="recentsview.html"><i></i> Recent Searches</a></li>
+              <li><a href="index.html"><i></i> Home</a></li>
             </ul>
           </div>
         </nav>
@@ -38,10 +38,29 @@
         <div class="form-group">
             <input type="text" ng-model="city" class="form-control" />
         </div>
-        <a href="recentsview.html" class="btn btn-primary">Get the Weather!</a>
+        <a href="#/forecast" class="btn btn-primary">Get the Weather!</a>
       </div>
 <!--       
     <div class="search" ng-repeat="search in recentSearch"> -->
+        <div>{{search}}</div>
+            <ul>
+              <h3>London</h3>
+                <li>Cloudy: overcast</li>
+                <li>57 F</li>
+              <h3>Barcelona</h3>
+                <li>Sunny: clear sky</li>
+                <li>86 F</li>
+              <h3>Lyon</h3>
+                <li>Sunny: light clouds</li>
+                <li>78 F</li>
+              <h3>Seattle</h3>
+                <li>Rainy: strong winds</li>
+                <li>55 F</li>
+              <h3>Cabo San Lucas</h3>
+                <li>Perfect: all the time</li>
+                <li>85 F</li>
+            </ul>
+        </div>
       <div ng-view></div>
 
     </body>

@@ -1,12 +1,13 @@
-var mongoose = require('moongoose');
+var mongoose = require('mongoose');
 
 var Schema = mongoose.Schema;
 
 var recentsSchema = mongoose.Schema({
-  city: String,
-  description: String,
+  weather: String,
+  temp: String,
+  city: String
 });
 
-var Recents = mongoose.model('Recents', recentsSchema);
+var Recent = mongoose.model('Recent', recentsSchema);
 
-module.exports = Recents;
+module.exports = Recent;

@@ -1,4 +1,4 @@
-var weather = [
+var recentSearch = [
     {
       weather: "Sunny: clear sky",
       temp: "85 F",
@@ -31,4 +31,4 @@ var weather = [
     },
   ];
 
-module.exports = weather;
+module.exports = recentSearch;
