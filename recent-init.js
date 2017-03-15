@@ -6,7 +6,7 @@ var saveRecent = function(recent) {
   var search = new Search(recent);
   search.save(function(err, search) {
     if (err) {
-      return console.log('These are not the droid you\'re looking for: ', err);
+      return console.log('These are not the droids you\'re looking for: ', err);
     } else {
       console.log('You rock, Rocky!', search);
     }

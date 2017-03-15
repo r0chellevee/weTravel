@@ -1,27 +1,38 @@
 //MODULE
 angular.module('weTrvl', ['ngRoute', 'ngResource'])
 
+.factory('Recents', function($http) {
+
+  var getAll = function(link) {
+    return http$({
+      method: 'GET',
+      url: 
+
+    })
+  }
+})
+
 //SERVICES
 .service('cityService', function() {
-  this.city = "Los Angeles, CA";
+  this.city = "Los Angeles";
 })
 
 //CONTROLLERS
 
 .controller('homeController', function($scope, cityService) {
-    $scope.city = cityService.city;
-    
-    $scope.$watch('city', function() {
-      cityService.city = $scope.city
-    })
 
-  })
 
 .controller('forecastController', function($scope, $resource, cityService) {
-  $scope.city = cityService.city;
-  $scope.weatherAPI = $resource('http://api.openweathermap.org/data/2.5/weather?q=' + $scope.city + '&appid=c3c721bb9a168dcaa58c632606e3bef7');
-  $scope.weatherResult = $scope.weatherAPI.get({ q: $scope.city });
+    $scope.city = cityService.city;
+
+    $scope.$watch('city', function() {
+    cityService.city = $scope.city
+    })
+
+    })
+    $scope.city = cityService.city;
+    $scope.weatherAPI = ;
+    $scope.weatherResult = $scope.weatherAPI.get({ q: $scope.city });
 
 })
-
 
